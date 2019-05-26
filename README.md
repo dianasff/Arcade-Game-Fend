@@ -11,5 +11,5 @@ Open the index.html, in your browser, and have a nice time playing the game.
 * Everytime you collide with one of the bugs you lose 500 points.
 * You will start with 1000 points!
 * If you reach 0 points, you lose the game.
-* Click on the **CLICK TO START** button to start the game.
+* Click on the **START!** button to start the game.
 * HAVE FUN!
