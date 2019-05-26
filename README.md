@@ -1,4 +1,4 @@
-# Arcade-Game-Fend
+# Fend-Arcade-Game
 ## Description
 This is the third project of the Udacity's Front-End Nanodegree. This project consists in making an Arcade Game.
 ## How to open the game
