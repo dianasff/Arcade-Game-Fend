@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Arcade Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+	<audio src= "melodyloops-preview-sunny-ways-2m30s.mp3" id="myMusic"></audio> <!-- this sound was provided by https://www.melodyloops.com/ -->
+	<audio src= "lose.wav" id="lose"></audio> <!-- this sound was provided by https://www.noiseforfun.com/ -->
+	<audio src= "win.wav" id="win"></audio> <!-- this sound was provided by https://www.noiseforfun.com/ -->
+	<audio src= "collide.wav" id="collide"></audio> <!-- this sound was provided by https://www.noiseforfun.com/ -->
+	
+	<header>FEND ARCADE GAME</header>
+
+	<div id="start" class="modal show">      
+      
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Hello!</h2>
+          <hr>
+          <p>Welcome to the Fend Arcade Game</p>
+          <hr>
+          <p>Instructions:</p>
+          <ul>
+          	<li>Your goal is to reach the water.</li>
+          	<li>Use the arrows to move the player, but take care with the bugs.</li>
+          	<li>Everytime you collide with one of the bugs you lose 500 points.</li>
+          	<li>You will start with 1000 points!</li>
+          	<li>If you reach 0 points, you lose the game.</li>
+          </ul>
+          <button onclick="closeModal()">Start!</button>
+        </div>
+
+    </div>
+
+	<div id="game-over" class="modal">      
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Game Over!!</h2>
+          <button onclick="resetGame()">Try Again!</button>
+        </div>
+    </div>
+
+	<div id="myModal" class="modal">      
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>CONGRATULATIONS!!</h2>
+          <p>You made: <span id=points> </span> points </p>
+          <button onclick="resetGame()">Play again!</button>
+        </div>
+    </div>
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+</html>
