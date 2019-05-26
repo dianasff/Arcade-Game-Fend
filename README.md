@@ -2,7 +2,7 @@
 ## Description
 This is the third project of the Udacity's Front-End Nanodegree. This project consists in making an Arcade Game.
 ## How to open the game
-You will need to download the Arcade-Game-Fend file.
+You will need to download Felix_Diana_frontend-nanodegree-arcade-game-master file.
 Open the index.html, in your browser, and have a nice time playing the game.
 ## Usage
 ### Your goal is to reach the water.
